@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #092162;
+}
+header nav {
+  background-color: red !important;
+}
+header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #092162 !important;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1rem;
+  list-style-type: none;
+  background-color: #092162;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header a.nav-link {
+  text-decoration: none;
+  color: white !important;
+}
+header a.navbar-brand {
+  background-color: #092162;
+  color: white !important;
+  margin: 0;
+  padding: 0 2px;
+  height: 100%;
+}
+header button.navbar-toggler {
+  background-color: white;
+}
+header button.navbar-toggler span.navbar-toggler-icon {
+  color: white !important;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/*----- Index -----*/
+section {
+  text-align: center;
+}
+section h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  margin-top: 3rem;
+}
+section h2 {
+  font-size: 4.5rem;
+}
+section p {
+  font-size: 2rem;
+}
+
+span {
+  font-weight: 600;
+  color: #901515;
+}
+
+.bienvenida {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #d7d9e2;
+  height: 100vh;
+}
+.bienvenida img.agustin {
+  width: 20%;
+  border-radius: 10px;
+}
+.bienvenida .conocerme {
+  color: #092162;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+
+/*----- ¿Quién soy? -----*/
+.quien-soy {
+  height: 100vh;
+  background-color: #3063f094;
+  padding: 0 10%;
+}
+
+/*----- Educación -----*/
+.educacion {
+  height: 100vh;
+  background-color: #d7d9e2;
+  padding: 0 10%;
+}
+
+/*----- Experiencia -----*/
+.experiencia {
+  height: 100vh;
+  background-color: #3063f094;
+  padding: 0 10%;
+}
+
+/*----- Educación -----*/
+.contacto {
+  height: 100vh;
+  background-color: #d7d9e2;
+  padding: 0 10%;
+}
+.contacto .redes {
+  width: 5%;
+}
+.contacto p, .contacto a {
+  color: #092162;
+  margin: 1.2rem;
+}
+.contacto article {
+  display: flex;
+}
+
+/*----- Footer -----*/
+footer {
+  background-color: #092162;
+  text-align: center;
+  padding: 10px;
+}
+footer p {
+  color: white;
+  font-size: 1.5rem;
+}
+footer a {
+  color: #d7d9e2;
+}
